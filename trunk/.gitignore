@@ -1,0 +1,32 @@
+# Project Settings
+.idea
+.buildpath
+.project
+.settings
+
+# Repo Files
+/vendor
+/logs/*
+/build
+
+demo/.DS_Store
+demo/composer.lock
+demo/tmp
+demo/vendor
+demo/facerace/tmp
+
+docker-compose.yml.prod
+
+# Temporary Ignoring these files 
+#app/assets/less/*
+
+# Not sure if this should be ignored
+cache/assetic/*
+
+# node_modules/*
+
+demo/config-local.php
+
+demo/emotion/.DS_Store
+
+demo/emotion/media/.DS_Store
